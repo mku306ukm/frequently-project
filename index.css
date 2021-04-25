@@ -1,0 +1,40 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    
+}
+.row{
+    width: 550px;
+    
+    height: 700px;
+    
+    margin: auto;
+}
+
+.ask{
+    text-align: center;
+}
+p{
+
+    margin-left:15px ;
+    background: rgb(226, 223, 223);
+    width: 500px;
+    height: 25px;
+
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 5px;
+   
+}
+.fa-chevron-right{
+    
+    padding-top: 3px;
+    padding-right: 10px;
+    color: rgb(150, 150, 221);
+
+}
+p:hover{
+    background-color: rgba(85, 93, 100, 0.424);
+}
